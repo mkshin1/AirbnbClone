@@ -1,5 +1,5 @@
 # Title : AirBnB Clone
 
-As the title suggusts, this project will be based on cloning AirBnB
+As the title suggusts, this project will be on cloning AirBnB
 
-Technologies : node, next.js, react, graphQL, psql, tailwindCSS
+Technologies : nodeJS, react, graphQL, psql, tailwindCSS
