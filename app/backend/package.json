@@ -4,13 +4,19 @@
   "description": "connect postgresql to cra",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.2",
     "express": "^4.17.2",
+    "knex": "^1.0.1",
     "pg": "^8.7.1",
     "sequelize": "^6.14.1"
-  }
+  },
+  "type": "module"
 }
