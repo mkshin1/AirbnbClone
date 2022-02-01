@@ -2,7 +2,7 @@ import { Sequelize } from "sequelize";
 import "dotenv/config";
 
 // process.env.PASSWORD returns error : 'client password must be a string'
-
+console.log(process.env);
 const sequelize = new Sequelize(
   process.env.DB,
   process.env.USERNAME,
