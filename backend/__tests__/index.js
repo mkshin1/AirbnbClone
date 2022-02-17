@@ -4,7 +4,7 @@ const config = require("../config/config.json");
 const { Sequelize, DataTypes } = require("sequelize");
 // const { jest } = require("@jest/globals");
 
-const sequelize = new Sequelize(
+module.exports = new Sequelize(
   config.development.database,
   config.development.username,
   null,
