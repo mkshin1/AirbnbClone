@@ -21,7 +21,7 @@ const sequelize = new Sequelize(
 
 const newListing = async () => {
   const result = await listingModel(sequelize, DataTypes).create({
-    desc: "random description of fake listing number 2",
+    desc: "random description of fake listing number 3",
     streetName: "115 S Berendo St",
     city: "Los Angeles",
     zipCode: 90004,
@@ -82,8 +82,12 @@ test("find the user by the user id in the listing", async () => {
   expect(data.dataValues.firstName).toBe("michael");
 });
 
-(" new level testing ");
-
 // use async mock functions
 // use mock functions
-//
+
+// test("return the user id and the description of the listing", async () => {
+//   const data = await newListing();
+//   console.log(data);
+//   expect(data.userId).toBe(1);
+//   expect(data.desc).toBe("something that is completely wrong");
+// });
