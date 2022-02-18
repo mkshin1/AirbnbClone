@@ -16,7 +16,7 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.removeConstraint("photos", "userId", {
+    await queryInterface.removeConstraint("listings", "userId", {
       fields: ["userId"],
       type: "foreign key",
       // name: 'custom_fkey_constraint_name', // optional
